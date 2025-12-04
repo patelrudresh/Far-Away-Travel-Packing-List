@@ -1,0 +1,46 @@
+.trip-form{
+    background: #da9b9b;
+    padding: 20px 25px;
+     border-radius: 14px;
+     margin: 20px auto;
+     max-width: 600px;
+}
+.trip-form h2{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 20px;
+  font-weight: 600;
+  color: #1d1e43;
+}
+
+.form-row{
+    display: flex;
+    gap:12px ;
+    align-items: center;
+    justify-content: center;
+}
+
+.trip-form select,
+.trip-form input {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #060d2c;
+  font-size: 16px;
+}
+.trip-form select {
+  width: 80px;
+}
+.trip-form input {
+  flex: 1;
+}
+.add-btn {
+  background: #604caf;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s ease-in-out;
+}
+
